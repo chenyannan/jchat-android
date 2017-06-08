@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+<include layout="@layout/menu_title_bar_with_button"/>
+    <EditText
+        android:background="@null"
+        android:id="@+id/note_name"
+        android:layout_width="match_parent"
+        android:layout_height="46.67dp"/>
+    <LinearLayout
+        android:background="#E8EDF3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </LinearLayout>
+</LinearLayout>
